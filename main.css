@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle');
+
+body {
+    color: white;
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    font-family: 'Dongle', sans-serif;
+}
+
+.heading {
+    font-weight: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: indigo;
+    color: white;
+    border: none;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 32px;
+    font-family: 'Dongle', sans-serif;
+    border-radius: 8px;
+    
+}
+
+button:hover {
+    background-color: rgb(100, 25, 155);
+}
+
+.question {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.answer {
+    text-align: center;
+    font-size: 50px;
+}
+
+.correct {
+    color: greenyellow;
+}
+
+.wrong {
+    color: orangered;
+}
+
+a {
+    color: lightskyblue;
+}
