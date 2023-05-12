@@ -7,8 +7,14 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
+.welcome {
+    font-weight: 400px;
+}
+
 .heading {
     font-weight: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .hidden {
