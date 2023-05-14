@@ -33,6 +33,8 @@ if (urlParams.has("questionFourInput")) {
         function goToQuestionOne() {
             welcome.classList.add("hidden");
             questionOne.classList.remove("hidden");
+            questionOneAnswer.focus();
+            questionOneAnswer.select();
         }
 
         welcomeNext.onclick = goToQuestionOne;
@@ -59,6 +61,8 @@ if (urlParams.has("questionFourInput")) {
         function goToQuestionTwo() {
             questionOne.classList.add('hidden');
             questionTwo.classList.remove('hidden');
+            questionTwoAnswer.focus();
+            questionTwoAnswer.select();
         }
 
         questionOneNext.onclick = goToQuestionTwo;
@@ -89,6 +93,8 @@ if (urlParams.has("questionFourInput")) {
         function goToQuestionThree() {
             questionTwo.classList.add('hidden');
             questionThree.classList.remove('hidden');
+            questionThreeAnswer.focus();
+            questionThreeAnswer.select();
         }
 
         questionTwoNext.onclick = goToQuestionThree;
@@ -141,6 +147,8 @@ if (urlParams.has("questionFourInput")) {
     function goToQuestionOne() {
         welcome.classList.add("hidden");
         questionOne.classList.remove("hidden");
+        questionOneAnswer.focus();
+        questionOneAnswer.select();
     }
 
     welcomeNext.onclick = goToQuestionOne;
@@ -167,6 +175,8 @@ if (urlParams.has("questionFourInput")) {
     function goToQuestionTwo() {
         questionOne.classList.add('hidden');
         questionTwo.classList.remove('hidden');
+        questionTwoAnswer.focus();
+        questionTwoAnswer.select();
     }
 
     questionOneNext.onclick = goToQuestionTwo;
@@ -197,6 +207,8 @@ if (urlParams.has("questionFourInput")) {
     function goToQuestionThree() {
         questionTwo.classList.add('hidden');
         questionThree.classList.remove('hidden');
+        questionThreeAnswer.focus();
+        questionThreeAnswer.select();
     }
 
     questionTwoNext.onclick = goToQuestionThree;
