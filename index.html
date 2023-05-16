@@ -1,107 +1,111 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Space Quiz</title>
-        <link rel="icon" href="icon.png">
-        <link rel="stylesheet" href="main.css">
-    </head>
 
-    <body>
-        <div id="welcome">
-            <h1 class="welcome" id="welcomeMessage">Welcome to the space quiz!</h1>
-            <div class="buttonContainer">
-                <button id="welcomeNext">
-                    Next
-                </button>
-            </div>
+<head>
+    <title>Space Quiz</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="welcome">
+        <h1 class="welcome" id="welcomeMessage">Welcome to the space quiz!</h1>
+        <div class="buttonContainer">
+            <button id="welcomeNext">
+                Next
+            </button>
         </div>
+    </div>
 
-        <div id="questionOne" class="hidden">
-            <h1 class="heading">
-                Question 1
-            </h1>
+    <div id="questionOne" class="hidden">
+        <h1 class="heading">
+            Question 1
+        </h1>
 
-            <h2 class="question">
-                How many moons does Mercury have?
-            </h2>
-            <div class="buttonContainer">
-                <input id="questionOneAnswer">
-            </div>
-            <h2 id="questionOneReturn" class="answer"></h2>
-
-            <div class="buttonContainer">
-                <button id="questionOneNext" class="hidden">
-                    Next
-                </button>
-            </div>
+        <h2 class="question">
+            How many moons does Mercury have?
+        </h2>
+        <div class="buttonContainer">
+            <input id="questionOneAnswer">
         </div>
+        <h2 id="questionOneReturn" class="answer"></h2>
 
-        <div id="questionTwo" class="hidden">
-            <h1 class="heading">
-                Question 2
-            </h1>
-
-            <h2 class="question">
-                How many planets does our solar system have?
-            </h2>
-            <div class="buttonContainer">
-                <input id="questionTwoAnswer">
-            </div>
-            <h2 id="questionTwoReturn" class="answer"></h2>
-            <h2 id="questionTwoPluto" class="hidden answer"><a href="https://www.loc.gov/everyday-mysteries/astronomy/item/why-is-pluto-no-longer-a-planet/" target="_blank" rel="noopener noreferrer">Pluto isn't a planet!</a></h2>
-
-            <div class="buttonContainer">
-                <button id="questionTwoNext" class="hidden">
-                    Next
-                </button>
-            </div>
+        <div class="buttonContainer">
+            <button id="questionOneNext" class="hidden">
+                Next
+            </button>
         </div>
+    </div>
 
-        <div id="questionThree" class="hidden">
-            <h1 class="heading">
-                Question 3
-            </h1>
+    <div id="questionTwo" class="hidden">
+        <h1 class="heading">
+            Question 2
+        </h1>
 
-            <h2 class="question">
-                What is the name of our galaxy?
-            </h2>
-            <div class="buttonContainer">
-                <input id="questionThreeAnswer">
-            </div>
-            <h2 id="questionThreeReturn" class="answer"></h2>
-
-            <div class="buttonContainer">
-                <button id="questionThreeNext" class="hidden">
-                    Next
-                </button>
-            </div>
+        <h2 class="question">
+            How many planets does our solar system have?
+        </h2>
+        <div class="buttonContainer">
+            <input id="questionTwoAnswer">
         </div>
+        <h2 id="questionTwoReturn" class="answer"></h2>
+        <h2 id="questionTwoPluto" class="hidden answer"><a
+                href="https://www.loc.gov/everyday-mysteries/astronomy/item/why-is-pluto-no-longer-a-planet/"
+                target="_blank" rel="noopener noreferrer">Pluto isn't a planet!</a></h2>
 
-        <div id="questionFour" class="hidden">
-            <h1 class="heading">
-                Question 4
-            </h1>
-
-            <h2 class="question">
-                How far away is Mercury from the sun?
-            </h2>
-
-            <form style="text-align: center; font-size: 150%;">
-                <input type="radio" name="questionFourInput" id="questionFourInputOne" value="wrong">
-                <label for="questionFourInputOne">
-                    108 milion km
-                </label>
-                <input type="radio" name="questionFourInput" id="questionFourInputTwo" value="correct">
-                <label for="questionFourInputOne">
-                    58 milion km
-                </label>
-
-                <br>
-                <button id="questionFourButton">Input</button>
-            </form>
+        <div class="buttonContainer">
+            <button id="questionTwoNext" class="hidden">
+                Next
+            </button>
         </div>
+    </div>
 
-        <script src="script.js"></script>
-    </body>
+    <div id="questionThree" class="hidden">
+        <h1 class="heading">
+            Question 3
+        </h1>
+
+        <h2 class="question">
+            What is the name of our galaxy?
+        </h2>
+        <div class="buttonContainer">
+            <input id="questionThreeAnswer">
+        </div>
+        <h2 id="questionThreeReturn" class="answer"></h2>
+
+        <div class="buttonContainer">
+            <button id="questionThreeNext" class="hidden">
+                Next
+            </button>
+        </div>
+    </div>
+
+    <div id="questionFour" class="hidden">
+        <h1 class="heading">
+            Question 4
+        </h1>
+
+        <h2 class="question">
+            How far away is Mercury from the sun?
+        </h2>
+
+        <form style="text-align: center; font-size: 150%;">
+            <input type="radio" name="questionFourInput" id="questionFourInputOne" value="wrong">
+            <label for="questionFourInputOne">
+                108 milion km
+            </label>
+            <input type="radio" name="questionFourInput" id="questionFourInputTwo" value="correct">
+            <label for="questionFourInputOne">
+                58 milion km
+            </label>
+
+            <br>
+            <button id="questionFourButton">Input</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>

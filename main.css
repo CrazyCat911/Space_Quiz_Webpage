@@ -42,7 +42,7 @@ button {
     padding: 0px 32px;
     font-family: 'Dongle', sans-serif;
     border-radius: 8px;
-    
+
 }
 
 button:hover {
@@ -68,5 +68,9 @@ button:hover {
 }
 
 a {
-    color: lightskyblue;
+    color: rgb(135, 206, 250);
+}
+
+a:hover {
+    color: rgb(0, 157, 255);
 }
