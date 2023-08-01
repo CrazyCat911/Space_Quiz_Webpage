@@ -16,6 +16,10 @@ const questionThreeReturn = document.getElementById("questionThreeReturn");
 const questionThreeNext = document.getElementById("questionThreeNext");
 const questionFour = document.getElementById("questionFour");
 const questionFourButton = document.getElementById("questionFourButton");
+const Q1back = document.getElementById("Q1back");
+const Q2back = document.getElementById("Q2back");
+const Q3back = document.getElementById("Q3back");
+const Q4back = document.getElementById("Q4back");
 const urlParams = new URLSearchParams(window.location.search);
 
 if (urlParams.has("questionFourInput")) {
@@ -235,3 +239,30 @@ if (urlParams.has("questionFourInput")) {
 
     questionThreeNext.onclick = goToQuestionFour;
 }
+
+
+// Go back code
+function backQ1() {
+    questionOne.classList.add("hidden");
+    welcome.classList.remove("hidden");
+}
+
+function backQ2() {
+    questionTwo.classList.add("hidden");
+    questionOne.classList.remove("hidden");
+}
+
+function backQ3() {
+    questionThree.classList.add("hidden");
+    questionTwo.classList.remove("hidden");
+}
+
+function backQ4() {
+    questionFour.classList.add("hidden");
+    questionThree.classList.remove("hidden");
+}
+
+Q1back.onmouseup = backQ1;
+Q2back.onmouseup = backQ2;
+Q3back.onmouseup = backQ3;
+Q4back.onmouseup = backQ4;

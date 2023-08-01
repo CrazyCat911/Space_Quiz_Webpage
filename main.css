@@ -73,3 +73,7 @@ a {
 a:hover {
     color: rgb(0, 157, 255);
 }
+
+button.next {
+    float: right;
+}
